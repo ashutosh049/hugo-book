@@ -64,3 +64,21 @@ $hint-colors: (
   --hint-color-warning: #fd6;
   --hint-color-danger: #f66;
 }
+
+@mixin theme-light-green {
+  --gray-100: #f8f9fa;
+  --gray-200: #e9ecef;
+  --gray-500: #adb5bd;
+
+  --color-link: #267438;
+  --color-visited-link: #267438;
+
+  --body-background: white;
+  --body-font-color: black;
+
+  --icon-filter: none;
+
+  --hint-color-info: #6bf;
+  --hint-color-warning: #fd6;
+  --hint-color-danger: #f66;
+}
